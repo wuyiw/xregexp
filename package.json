@@ -13,5 +13,5 @@
         "regex",
         "regexp"
     ],
-    "main": "./xregexp-all.js"
+    "main": "./src/xregexp.js"
 }
