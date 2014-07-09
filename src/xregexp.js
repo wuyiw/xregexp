@@ -1663,3 +1663,5 @@ var XRegExp = (function(undefined) {
     return self;
 
 }());
+
+typeof module != 'undefined' ? module.exports = XRegExp : null;
