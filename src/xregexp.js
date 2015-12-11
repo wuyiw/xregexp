@@ -1,7 +1,7 @@
 /*!
  * XRegExp 3.0.0-pre
  * <http://xregexp.com/>
- * Steven Levithan © 2007-2012 MIT License
+ * Steven Levithan Â© 2007-2012 MIT License
  */
 
 /**
@@ -71,7 +71,7 @@ var XRegExp = (function(undefined) {
     correctExecNpcg = nativ.exec.call(/()??/, '')[1] === undefined,
 
 // Check for flag y support
-    hasNativeY = RegExp.prototype.sticky !== undefined,
+    hasNativeY = RegExp.prototype.hasOwnProperty('sticky'),
 
 // Tracker for known flags, including addon flags
     registeredFlags = {
